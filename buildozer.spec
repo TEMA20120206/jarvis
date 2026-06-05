@@ -16,16 +16,8 @@ android.minapi = 21
 android.targetapi = 30
 
 android.ndk = 23c
-android.sdk = 30
-
-# Важно для GitHub Actions
 android.accept_sdk_license = True
-
-# Отключаем тесты для скорости
 android.exclude_android_tests = True
-
-# Если есть иконка
-# icon.filename = %(source.dir)s/resources/icon.png
 
 [buildozer]
 
